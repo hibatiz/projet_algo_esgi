@@ -1,5 +1,5 @@
 Projet Algo ESGI (Partie DevOps & Qualité Serveur)
-# Projet Algo ESGI — Environnement DevOps & Qualité Serveur  
+# Projet Algo ESGI 
 **Étudiant : Luka CLERTE, Emy CHARDELA, Hiba TIZAOUI**
 
 ---
