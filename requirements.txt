@@ -1,3 +1,5 @@
 pylint
 scikit-learn
 numpy
+torch
+scipy
