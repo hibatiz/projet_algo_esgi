@@ -36,7 +36,7 @@ echo ""
 # 4. Clonage du dépôt Git
 echo "[4] Clonage du dépôt Git..."
 REPO_URL="https://github.com/hibatiz/projet_algo_esgi.git"
-FOLDER="mon-projet"
+FOLDER=$(basename "$REPO_URL" .git)
 
 if [ -d "$FOLDER" ]; then
     echo "Le dossier existe déjà, suppression..."
