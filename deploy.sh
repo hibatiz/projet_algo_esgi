@@ -35,7 +35,7 @@ echo ""
 
 # 4. Clonage du dépôt Git
 echo "[4] Clonage du dépôt Git..."
-REPO_URL="https://github.com/TON_REPO_ICI.git"
+REPO_URL="https://github.com/hibatiz/projet_algo_esgi.git"
 FOLDER="mon-projet"
 
 if [ -d "$FOLDER" ]; then
