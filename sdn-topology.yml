@@ -1,0 +1,17 @@
+name: projet_sdn
+
+topology:
+  nodes:
+    # Premier poste de développement
+    poste-dev1:
+      kind: linux
+      image: ma-solution-dev:latest
+
+    # Deuxième poste de développement 
+    poste-dev2:
+      kind: linux
+      image: ma-solution-dev:latest
+
+  links:
+    # Création du lien SDN entre les deux postes
+    - endpoints: ["poste-dev1:eth1", "poste-dev2:eth1"]
